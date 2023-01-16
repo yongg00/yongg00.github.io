@@ -1,12 +1,9 @@
 # main links
 main:
-  - title: "Category"
-    url: /categories/
   - title: "Tag"
     url: /tags/
   
     
-
 docs:
   - title: "목차"
     children:
@@ -14,6 +11,21 @@ docs:
         url: /categories/
       - title: "Tag"
         url: /tags/
+
+
+sidebar-category:
+  - title: "------"
+    children:
+      - title: "Linux"
+        url: /categories/linux/
+        category: "linux"
+      - title: "Minimal-Mistakes"
+        url: /minimal-mistakes/
+        category: "minimal-mistakes"
+      - title: "Life"
+        url: /life/
+        category: "life"
+
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
