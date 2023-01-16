@@ -6,6 +6,15 @@
    Default
    ========================================================================== */
 
+// back to top 버튼만들기
+.sidebar__top {
+  position: fixed;
+  bottom: 2em;
+  right: 3em;
+  z-index: 10;
+}
+
+
 .sidebar {
   @include clearfix();
   // @include breakpoint(max-width $large) {
@@ -124,7 +133,7 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-  width: 36px;
+  width: 36px;   
   height: 36px;
 
   @include breakpoint($large) {

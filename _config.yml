@@ -35,8 +35,7 @@ comments:
     shortname            : "yongg00"
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
-  facebook:
-    # https://developers.facebook.com/docs/plugins/comments
+  facebook:                # https://developers.facebook.com/docs/plugins/comments
     appid                :
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
@@ -106,9 +105,9 @@ analytics:
 author:
   name             : "YONGG00"
   avatar           : "/assets/images/KakaoTalk_20200204_192043894.jpg"
-  bio              : "You Deserve It"
+  bio              : "반갑습니다 :)"
   location         : "South Korea"
-  email            : "ygsin0413@gmail.com"
+  email            : # "ygsin0413@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -200,7 +199,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 7 # amount of posts to show         defaults : 5
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
